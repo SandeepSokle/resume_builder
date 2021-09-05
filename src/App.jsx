@@ -31,7 +31,7 @@ let App = () => {
     return () => {
       unsub();
     };
-  }, []);
+  }, [dispatch]);
 
   return (
     <>

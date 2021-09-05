@@ -20,7 +20,7 @@ let Home = () => {
             history.push("/personal");
           }}
         >
-          <img src="http://localhost:3000/skin1.svg" />
+          <img src="http://localhost:3000/skin1.svg" alt = "resume"/>
         </div>
         <div
           className="template"
@@ -29,7 +29,7 @@ let Home = () => {
             history.push("/personal");
           }}
         >
-          <img src="http://localhost:3000/skin2.svg" />
+          <img src="http://localhost:3000/skin2.svg" alt = "resume"/>
         </div>
       </div>
 

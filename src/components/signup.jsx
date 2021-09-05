@@ -60,7 +60,7 @@ let SignUp = () => {
             <button
               onClick={(e) => {
                 e.preventDefault();
-                if (password == confirmPassword) {
+                if (password === confirmPassword) {
                   auth.createUserWithEmailAndPassword(email, password);
                 } else {
                   alert("Please check password entered");

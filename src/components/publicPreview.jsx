@@ -16,7 +16,7 @@ let PublicPreview = () => {
       setPreviewData(data);
       setLoading(false);
     });
-  }, []);
+  }, [rid]);
   return (
     <>
       {loading ? (
